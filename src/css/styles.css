@@ -1,0 +1,36 @@
+#carousel-control-next, #carousel-control-prev{
+    display: none;
+  }
+  @media(min-width:768px){
+    .contenedor-input{
+      width: 25%!important;
+    }
+  }
+  @media(max-width:800px){
+    .random, .search{
+      display: flex;
+      flex-direction: column;
+    }
+    .col-6{
+      width: 100%!important;
+    }
+  
+    .col-3{
+      width: 50%!important;
+    }
+  
+    .contenedor-input{
+      width: 100%!important;
+    }
+  
+  }
+  
+  @media(max-width:450px){
+    .col-3{
+      width: 100%!important;
+    }
+  }
+  
+  :focus{
+    border: none;
+  }
